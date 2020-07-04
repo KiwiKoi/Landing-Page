@@ -3,8 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
   </head>
-  <body></body>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <a href="#first-section" class="nav-link">Link 1</a>
+        <a href="#second-section" class="nav-link">Link 2</a>
+        <a href="#third-section" class="nav-link">Link 3</a>
+      </nav>
+      <div class="brand">
+        <img
+          id="header-img"
+          src="https://previews.123rf.com/images/olegdudko/olegdudko1706/olegdudko170603037/80468578-e-commerce-.jpg"
+          alt="stock e-commerce"
+        ></img>
+      </div>
+    </header>
+    <div id="main">
+      <section id="first-section">
+        <h2>First Section</h2>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+          <input type="email" name="email" id="email" placeholder="Enter your email" />
+          <input
+            type="submit"
+            id="submit"
+            value="Submit"
+          />
+        </form>
+
+      </section>
+      <hr />
+
+      <section id="second-section">
+        <h2>Second Section</h2>
+        <iframe
+          height="240"
+          width="320"
+          id="video"
+          controls
+          src="https://www.youtube.com/watch?v=XNBP18nrRdw"
+        >
+        </iframe>
+      </section>
+      <hr />
+      <section id="third-section">
+        <h2>Third Section</h2>
+        <div>
+          <div class="product">
+            <h3>Greatness</h3>
+            <p>This is something that you can achieve</p>
+          </div>
+          <div class="product">
+            <h3>Awesomeness</h3>
+            <p>This is something you must sacrifice for</p>
+          </div>
+          <div class="product">
+            <h3>Despair</h3>
+            <p>This is something that requires no effort</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
